@@ -16,7 +16,6 @@ export const NormalizeStyles = createGlobalStyle`
 
   html, body, #__next {
     height: 100%;
-    min-height: -webkit-fill-available; 
   }
 
   body {

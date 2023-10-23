@@ -8,7 +8,7 @@ export const Container = styled.section`
     display: flex;
     justify-content: center;
     height: 100%;
-    min-height: ${pxTo('rem', 860)};
+    max-height: ${pxTo('rem', 860)};
     width: 100%;
     background-color: ${theme.colors.pink25};
     background-image: url(${assetsLinks.images.pages.home.homeBgPattern001});
