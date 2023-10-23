@@ -12,7 +12,7 @@ export const Container = styled.nav`
 
 export const Line = styled.div`
   ${({ theme }) => css`
-    background-color: ${theme.black10};
+    background-color: ${theme.colors.black10};
     height: 26px;
     width: 1px;
   `}

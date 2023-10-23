@@ -9,7 +9,7 @@ export const Container = styled.div`
 
 export const Text = styled.span`
   ${({ theme }) => css`
-    color: ${theme.black100};
+    color: ${theme.colors.black100};
     font-size: ${pxTo("rem", 16)};
   `}
 `;

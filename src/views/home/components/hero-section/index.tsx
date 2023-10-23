@@ -16,12 +16,12 @@ export function HeroSection() {
         <S.Title variant="heading-1" color="black100">
           Super Delicious Food Special for You
         </S.Title>
-        <S.BackgroundPattern
-          src={assetsLinks.images.pages.home.homeBgPattern001}
-        />
 
-        <S.HomeImage src={assetsLinks.images.pages.home.homeImg001} />
+        <S.Description variant="body-1" color="black50">
+          Order your favorites food from anywhere and get delivery at your door
+        </S.Description>
       </UIGrid>
+      <S.HomeImage src={assetsLinks.images.pages.home.homeImg001} />
     </S.Container>
   );
 }

@@ -30,9 +30,7 @@ export default class MyDocument extends Document {
       <Html lang={AppConfig.locale}>
         <Head />
         <body>
-          <main>
             <Main />
-          </main>
           <NextScript />
         </body>
       </Html>

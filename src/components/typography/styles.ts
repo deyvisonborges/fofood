@@ -12,7 +12,7 @@ function renderVariant(variant: VariantKeys) {
     font-size: ${data?.size};
     font-weight: ${fontweights[data?.type as never]};
     /* letter-spacing: ${data?.letterSpacing};  Corrigir depois */
-    line-height: ${data?.lineHeight === "auto" ? "normal" : data?.lineHeight};
+    /* line-height: ${data?.lineHeight === "auto" ? "normal" : data?.lineHeight}; */
   `;
 }
 
