@@ -29,4 +29,13 @@ export const NormalizeStyles = createGlobalStyle`
       min-height: -webkit-fill-available;
     }
   }
+  
+  main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
 `

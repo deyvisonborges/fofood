@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 
 export const Buttom = styled.button`
   ${({ theme }) => css`
-    background-color: #ffffff;
+    background-color: transparent;
     border: 1px solid ${theme.black100};
     border-radius: 32px;
     cursor: pointer;

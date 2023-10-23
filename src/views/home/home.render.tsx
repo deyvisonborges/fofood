@@ -1,11 +1,5 @@
-import { Navigation } from "@/components/navigation";
-import { Layout } from "@/templates/layout";
+import { HeroSection } from "./components/hero-section";
 
 export function HomeRender() {
-  console.log('home rener')
-  return (
-    <Layout>
-      <Navigation />
-    </Layout>
-  );
+  return <HeroSection />;
 }

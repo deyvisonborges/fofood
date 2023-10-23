@@ -20,10 +20,10 @@ export const assetsLinks = {
     },
     pages: {
       home: {
-        homeBgPattern001: "/assets/images/pages/home__bg__pattern__001.png",
-        homeBgPattern002: "/assets/images/pages/home__bg__pattern__002.png",
-        homeBgPattern003: "/assets/images/pages/home__bg__pattern__003.png",
-        homeImg001: "/assets/images/pages/home__img__001.png",
+        homeBgPattern001: "/assets/images/pages/home/home__bg__pattern__001.png",
+        homeBgPattern002: "/assets/images/pages/home/home__bg__pattern__002.png",
+        homeBgPattern003: "/assets/images/pages/home/home__bg__pattern__003.png",
+        homeImg001: "/assets/images/pages/home/home__img__001.png",
       },
     },
     products: {
