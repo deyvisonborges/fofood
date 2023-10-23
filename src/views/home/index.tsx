@@ -1,5 +1,5 @@
 import { HeroSection } from "./components/hero-section";
 
-export function HomeRender() {
+export function ViewHome() {
   return <HeroSection />;
 }
