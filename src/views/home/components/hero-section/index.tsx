@@ -20,6 +20,11 @@ export function HeroSection() {
         <S.Description variant="body-1" color="black50">
           Order your favorites food from anywhere and get delivery at your door
         </S.Description>
+
+        <S.ButtonsGroup>
+          <S.ButtonOrderNow>Order now</S.ButtonOrderNow>
+          <S.ButtonLearnMore>Learn More</S.ButtonLearnMore>
+        </S.ButtonsGroup>
       </UIGrid>
       <S.HomeImage src={assetsLinks.images.pages.home.homeImg001} />
     </S.Container>
