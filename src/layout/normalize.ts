@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle, css } from "styled-components";
 
 export const NormalizeStyles = createGlobalStyle`
   * {
@@ -13,28 +13,11 @@ export const NormalizeStyles = createGlobalStyle`
       box-sizing: inherit;
     }
   }
-
-  html, body, #__next {
-    height: 100%;
-  }
-
-  body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    min-height: 100vh;
-
-    /* Safari iOS bugfix */
-    @supports (-webkit-touch-callout: none) {
-      height: -webkit-fill-available;
-      min-height: -webkit-fill-available;
-    }
-  }
   
-  main {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    height: 100%;
-    width: 100%;
+  body {
+    ${({ theme }) => css`
+      background-color: ${theme.colors.pink50};
+      font-family: Figtree, Fredoka, sans-serif;
+    `}
   }
-`
+`;

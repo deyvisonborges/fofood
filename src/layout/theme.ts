@@ -58,7 +58,7 @@ export const theme = {
         },
 
         "heading-4": {
-          fontFamily: fontsNames.primary,
+          fontFamily: fontsNames.secondary,
           type: "bold",
           lineHeight: "auto",
           letterSpacing: "-4%",

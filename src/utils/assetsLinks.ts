@@ -1,15 +1,15 @@
 export const assetsLinks = {
-  common: {
-    img001: "/assets/images/img__001.png",
-    img002: "/assets/images/img__002.png",
-    imgAppStore: "/assets/images/img__app__store.png",
-    imgAvatar001: "/assets/images/img__avatar__001.png",
-    imgAvatar002: "/assets/images/img__avatar__002.png",
-    imgAvatar003: "/assets/images/img__avatar__003.png",
-    imgAvatar004: "/assets/images/img__avatar__004.png",
-    imgGooglePlay: "/assets/images/img__google__play.png",
-  },
   images: {
+    common: {
+      img001: "/assets/images/img__001.png",
+      img002: "/assets/images/img__002.png",
+      imgAppStore: "/assets/images/img__app__store.png",
+      imgAvatar001: "/assets/images/img__avatar__001.png",
+      imgAvatar002: "/assets/images/img__avatar__002.png",
+      imgAvatar003: "/assets/images/img__avatar__003.png",
+      imgAvatar004: "/assets/images/img__avatar__004.png",
+      imgGooglePlay: "/assets/images/img__google__play.png",
+    },
     categories: {
       imgProduct002: "/assets/images/categories/img__product__002.png",
       imgProduct003: "/assets/images/categories/img__product__003.png",
@@ -42,6 +42,6 @@ export const assetsLinks = {
     logoWhite: "/assets/svgs/logo-white.svg",
     logo: "/assets/svgs/logo.svg",
     love: "/assets/svgs/love.svg",
-    yellowStar: "/assets/svgs/yellow-start.svg",
+    yellowStar: "/assets/svgs/yellow-star.svg",
   },
 };
